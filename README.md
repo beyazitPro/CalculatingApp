@@ -3,11 +3,12 @@ I writed this app with react native and javaScript This is my frist react Native
 
 # Calculating screen
 You Can Calculate with any Numbers wtih this app
-![WhatsApp Görsel 2024-08-22 saat 21 23 03_03dd0f2f](https://github.com/user-attachments/assets/a87e75f5-4b6b-4609-963b-b62c8a433be9)
+![WhatsApp Görsel 2024-08-22 saat 21 23 03_03dd0f2f](https://github.com/user-attachments/assets/65c0b788-3838-49bb-8477-5785f8159764)
 
 # Currency converter screen
 You Can convert any currenty with this app
-![WhatsApp Görsel 2024-08-22 saat 21 23 02_df145dfc](https://github.com/user-attachments/assets/a22a5492-b0ac-4a64-a787-2e0d8cd8d2db)
+![WhatsApp Görsel 2024-08-22 saat 21 23 02_df145dfc](https://github.com/user-attachments/assets/dfa6e705-d4af-4cb7-aafd-fe55cfee76ed)
+
 
 # notes
 To use the project, you can first write npm install into the terminal and install the necessary packages, and then start the application by writing npx expo start.
