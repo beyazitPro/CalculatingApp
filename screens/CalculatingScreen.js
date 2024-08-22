@@ -10,7 +10,7 @@ export default function App({navigation}) {
       <Text style={styles.CalculatorText}>Calculator App</Text>
       <NumberInput ></NumberInput>
       <View style={styles.Keyboard}>
-        <Keyboard Button1Text={'√'} Button1Func={()=>getSqrt()} Button2Text={'x!'} Button2Func={()=>getFactorial()} Button3Text={'%'} Button3Func={()=>operationfunction('percent','%')} Button4Text={'Sil'} Button4Func={() => DeleteLastNumber()} ></Keyboard>
+        <Keyboard Button1Text={'√'} Button1Func={()=>getSqrt()} Button2Text={'x!'} Button2Func={()=>getFactorial()} Button3Text={'%'} Button3Func={()=>operationfunction('percent','%')} Button4Text={'del'} Button4Func={() => DeleteLastNumber()} ></Keyboard>
 
         <Keyboard Button1Text={'1/x'} Button1Func={()=>getDivisionToOne()} Button2Text={'xʸ'} Button2Func={()=>operationfunction("pow","^")} Button3Text={'C'} Button3Func={() => ClearNumber()} Button4Text={'÷'} Button4Func={() => operationfunction('division','÷')} ></Keyboard>
 
