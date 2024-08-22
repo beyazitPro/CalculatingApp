@@ -51,7 +51,7 @@ export default function CurrencyScreen({ navigation }) {
 
 
             <View style={styles.totalKeyboard}>
-                <Keyboard Button1Text={'C'} Button1Func={() => Clear()} Button2Text={'sil'} Button2Func={() => DeleteLastNumber()} Button3Text={'.'} Button3Func={() => WriteNum('.')} isThreeButton={true}></Keyboard>
+                <Keyboard Button1Text={'C'} Button1Func={() => Clear()} Button2Text={'del'} Button2Func={() => DeleteLastNumber()} Button3Text={'.'} Button3Func={() => WriteNum('.')} isThreeButton={true}></Keyboard>
 
                 <Keyboard Button1Text={'7'} Button1Func={() => WriteNum('7')} Button2Text={'8'} Button2Func={() => WriteNum('8')} Button3Text={'9'} Button3Func={() => WriteNum('9')} isThreeButton={true}></Keyboard>
 
